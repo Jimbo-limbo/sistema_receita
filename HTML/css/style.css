@@ -1,3 +1,8 @@
+ :root{
+    --cor-principal: #ff8800;
+    
+ }
+ 
  * {
      box-sizing: border-box;
 
@@ -20,7 +25,8 @@
 
 
  header {
-     background: #ff8800;
+
+     background: var(--cor-principal);
      padding: 50px;
      text-align: center;
      font-size: 20px;
@@ -60,11 +66,11 @@
 
  body {
      margin: 0;
-     background: #e9d0a3;
+     background: var(--cor-principal);
  }
 
  footer {
-     background: #ff8800;
+     background: var(--cor-principal);
      padding: 50px;
      text-align: center;
      color: #fff;
@@ -118,12 +124,20 @@
      border: 5px solid #25130a;
      padding: 5px;
      border-radius: 10px;
-     border-color: #f8caa5;
+     border-color: var(--cor-principal);
      margin: 0 auto;
      display: block;
      margin-bottom: 20px;
      box-shadow: 0 4px 10px #7c23234d;
 
+ }
+
+ #titulo{
+    background-image: url(../img/bannerbolocenoura.jfif);
+    height: 40vh;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    
  }
 
  /* ol {
