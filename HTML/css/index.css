@@ -1,0 +1,16 @@
+@import url(style.css);
+
+#tituloindex{
+    background-image: url(../img/clock.png);
+     height: 40vh;
+     margin-bottom: 10=0px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     border-radius: 10px;
+}

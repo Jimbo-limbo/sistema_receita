@@ -1,8 +1,8 @@
- :root{
-    --cor-principal: #ff8800;
-    
+ :root {
+     --cor-principal: #ff8800;
+
  }
- 
+
  * {
      box-sizing: border-box;
 
@@ -39,7 +39,7 @@
      color: #fff;
      text-decoration: none;
      margin: auto;
-     font-weigh: bolder;
+     font-weight: bolder;
      font-family: campus;
  }
 
@@ -51,6 +51,7 @@
      margin: auto;
      text-decoration: none;
      color: #fff;
+     justify-content: center;
 
  }
 
@@ -58,10 +59,10 @@
  main {
      background: #fff;
      width: 1200px;
-     margin: auto;
-     padding: 0 10px;
-     padding-bottom: 20px;
+     padding: 20px 20px 20px 20px;
      margin-bottom: 20px;
+     margin: auto;
+
  }
 
  body {
@@ -86,6 +87,8 @@
      font-size: 60px;
      padding-top: 50px;
      font-family: 'greek';
+     margin-top: 0;
+
 
  }
 
@@ -132,12 +135,25 @@
 
  }
 
- #titulo{
-    background-image: url(../img/bannerbolocenoura.jfif);
-    height: 40vh;
-    margin-bottom: 20px;
-    background-repeat: no-repeat;
-    
+ #titulocenoura {
+     background-image: url(../img/bolodecenoura.jpg);
+     height: 40vh;
+     margin-bottom: 10=0px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     border-radius: 10px;
+ }
+
+ #midias{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
  }
 
  /* ol {
@@ -174,6 +190,7 @@
  #receitas img {
      width: 100%;
      height: 270px;
+     object-fit: cover;
  }
 
  /* Final do css index */
